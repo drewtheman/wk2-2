@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--Week 1 assignment, html tags
+Assignment: Launching your UAT Space Program HTML Document Tags
+Andrew Keenan
+andrewforavon@rocketmail.com-->
+<html>
+
+<head>
+    <script src="code.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>
+        Andrew Keenan's UATSpace page
+        </title>
+</head>
+
+<body>
+    <img src="UATspaceLogo-2.jpg">
+    <h1>
+        UAT Space Program
+    </h1>
+    <script>
+        //test use of document.write
+        document.write("This is a test of the document.write function");
+    </script>
+    <p id="parafunc">
+        Test of the paragraph function. It can be be more then one sentence.
+    </p>
+    <!--Countdown timer title-->
+    <h2 id="parafunc2">Countdown Timer</h2>
+    <!--Status of current countdown timer-->
+    <div id="countdownStatus">Timer Status</div><br>
+    <br>
+    <button onclick="Start();">start</button>
+    <button>stop</button><br><br>
+    <!--
+        for our craps game on the html side, we need:
+        1. button to play craps
+        2. Crap status line
+        3. Header saying craps played here
+
+    Craps would be played, to help draw awareness to the Space program.
+    As a way to demonstrate that there are more things to do other then work all the time.
+    It also helps to keep the minds of the astronauts sharp for their duties.
+    Also to show that they can also have a little bit of fun on the side of their daily duties.
+    -->
+    <h2>Please try your hand at craps!</h2>
+    <div id="crapsStatus">Craps Status</div><br>
+    <button onclick="playcraps();">Play Craps</button>
+</body>
+
+</html>
